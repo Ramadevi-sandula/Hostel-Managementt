@@ -1,0 +1,18 @@
+{
+  "name": "hostel-management",
+  "version": "1.0.0",
+  "description": "Hostel Management CRUD project",
+  "main": "app7.js",
+  "scripts": {
+    "start": "node app7.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "mysql2": "^3.24.5",
+    "mysql8": "^2.17.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

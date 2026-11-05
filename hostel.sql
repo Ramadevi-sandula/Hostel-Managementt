@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS hostel;
+USE hostel;
+
+CREATE TABLE IF NOT EXISTS room (
+  roomid INT PRIMARY KEY,
+  roomname VARCHAR(100) NOT NULL,
+  block VARCHAR(50) NOT NULL,
+  capacity INT NOT NULL,
+  status VARCHAR(20) NOT NULL
+);
